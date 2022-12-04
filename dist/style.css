@@ -1,6 +1,6 @@
 .team-heading {
-    background-color: #e84855;
-    color: #ffffff;
+    background-color: #48a0e8;
+    color: #ffffff69;
   }
   
   .team-area {
@@ -14,12 +14,11 @@
     max-width: 280px;
     width: 90%;
     min-height: 22rem;
-    background-color: #007bff;
+    background-color: #ff6600;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
     border: none;
   }
   
