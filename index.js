@@ -8,7 +8,7 @@ const fs = require('fs');
 const DIST_DIR = path.resolve(__dirname, 'dist');
 const distPath = path.join(DIST_DIR, 'team.html');
 
-const render = require('./src/startApp.js');
+const render = require('./dist/startApp.js');
 
 const teamMembers = [];
 const idArray = [];
