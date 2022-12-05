@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "@apollo/server": "^4.2.2",
+    "graphql": "^16.6.0",
     "inquirer": "^8.2.4"
   }
 }
