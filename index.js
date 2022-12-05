@@ -13,14 +13,13 @@ const render = require('./src/page-template.js');
 const teamMembers = [];
 const idArray = [];
 
-// Inform user of usage
 console.log(
-  '\nWelcome to the team generator!\nUse `npm run reset` to reset the dist/ folder\n'
+  'Welcome to the team generator!'
 );
 
 function appMenu() {
   function createManager() {
-    console.log('Add Teammates');
+    console.log('Create your team!');
     inquirer
       .prompt([
         {
@@ -247,7 +246,6 @@ function appMenu() {
   }
 
   function buildTeam() {
-    // Create the output directory if the dist path doesn't exist
     if (!fs.existsSync(DIST_DIR)) {
       fs.mkdirSync(DIST_DIR);
     }
