@@ -1,4 +1,4 @@
-# Text Editor PWA
+# Team Profile Generator
 
 ## Description
 
